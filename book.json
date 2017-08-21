@@ -1,0 +1,76 @@
+{
+    "title": "minirefresh",
+    "description": "minirefresh - 极简的H5下拉刷新",
+    "author": "dailc",
+    "language": "zh-hans",
+    "gitbook": "3.2.2",
+    "root": ".",
+    "structure": {
+        "readme": "introduction.md"
+    },
+    "plugins": [
+        "-lunr",
+        "-search",
+        "-livereload",
+        "search-plus@^0.0.11",
+        "tbfed-pagefooter@^0.0.1",
+        "expandable-chapters@^0.2.0",
+        "anchor-navigation-ex@^1.0.4",
+        "ace@^0.3.2",
+        "sectionx@^3.1.0",
+        "splitter@^0.0.8",
+        "sitemap-general@^0.1.1",
+        "favicon@^0.0.2",
+        "todo@^0.1.3",
+        "baidu@^0.1.0"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": false
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "associatedWithSummary": false,
+            "mode": "float",
+            "float": {
+                "showLevelIcon": false
+            },
+            "pageTop": {
+                "showLevelIcon": false
+            }
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © dailc 2017",
+            "modify_label": "文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "sharing": {
+            "weibo": true,
+            "facebook": false,
+            "twitter": false,
+            "google": false,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "facebook",
+                "google",
+                "twitter",
+                "weibo",
+                "instapaper"
+            ]
+        },
+        "baidu": {
+            "token": "0ad542bd5ce7bd628fd6b892a2bef1fc"
+        },
+        "sectionx": {
+            "tag": "b"
+        },
+        "sitemap-general": {
+            "prefix": "http://app.epoint.com.cn/ejs/"
+        },
+        "favicon": {
+            "shortcut": "favicon.ico",
+            "bookmark": "favicon.ico"
+        }
+    }
+}
