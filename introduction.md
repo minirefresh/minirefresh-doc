@@ -10,7 +10,11 @@ __喜欢，你就给一个star!__
 
 极简主义的下拉刷新，H5环境使用
 
-## 如何安装
+## 官网
+
+[//www.minirefresh.com](//www.minirefresh.com)
+
+## 安装
 
 ### NPM
 
@@ -24,18 +28,69 @@ npm install minirefresh
 git clone git://github.com/minirefresh/minirefresh.git
 ```
 
-### 官网下载
+## 引入
 
-```js
-http://www.minirefresh.com
+```html
+<link rel="stylesheet" href="xxx/minirefresh.css" />
+<script type="text/javascript" src="xxx/minirefresh.js"></script>
 ```
 
-或者直接`Github`网站上`Clone`也行
+### `require`引入
+
+```js
+// npm安装情况
+var MiniRefresh = require('minirefresh');
+```
+
+```js
+// 直接通过路径引入
+var MiniRefresh = require('xxx/minirefresh.js');
+```
+
+## 页面布局
+
+```html
+<div id="minirefresh" class="minirefresh-wrap">
+    <div class="minirefresh-scroll">        
+    </div>
+</div>
+```
+
+## 初始化
+
+```js
+var miniRefresh = new MiniRefresh({
+    container: '#minirefresh',
+    down: {
+        callback: function() {
+            // 下拉事件
+        }
+    },
+    up: {
+
+        callback: function() {
+            // 上拉事件
+        }
+    }
+});
+```
+
+### 结束刷新
+
+```js
+// 结束下拉刷新
+miniRefresh.endDownLoading();
+```
+
+```js
+// 结束上拉加载
+// 参数为true代表没有更多数据，否则接下来可以继续加载
+miniRefresh.endUpLoading(true);
+```
 
 ### 功能
 
 下拉刷新，支持主流浏览器，支持移动端和PC
-
 
 ### 特点
 

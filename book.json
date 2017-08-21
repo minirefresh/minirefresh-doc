@@ -22,7 +22,8 @@
         "sitemap-general@^0.1.1",
         "favicon@^0.0.2",
         "todo@^0.1.3",
-        "baidu@^0.1.0"
+        "baidu@^0.1.0",
+        "github-buttons"
     ],
     "pluginsConfig": {
         "theme-default": {
@@ -43,6 +44,15 @@
             "copyright": "Copyright © dailc 2017",
             "modify_label": "文件修订时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "github-buttons": {
+            "repo": "minirefresh/minirefresh",
+            "types": [
+                "star",
+                "watch",
+                "fork"
+            ],
+            "size": "small"
         },
         "sharing": {
             "weibo": true,
@@ -68,6 +78,7 @@
         "sitemap-general": {
             "prefix": "//minirefresh.github.io"
         },
+        
         "favicon": {
             "shortcut": "favicon.ico",
             "bookmark": "favicon.ico"
