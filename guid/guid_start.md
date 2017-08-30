@@ -8,11 +8,15 @@
 npm install minirefresh
 ```
 
+[https://www.npmjs.com/package/minirefresh](https://www.npmjs.com/package/minirefresh)
+
 ### GIT
 
 ```js
 git clone git://github.com/minirefresh/minirefresh.git
 ```
+
+[https://github.com/minirefresh/minirefresh](https://github.com/minirefresh/minirefresh)
 
 ## 引入
 
@@ -24,18 +28,19 @@ git clone git://github.com/minirefresh/minirefresh.git
 ### `require`引入
 
 ```js
-// npm安装情况
-var MiniRefresh = require('minirefresh');
+var MiniRefresh = require('xxx/minirefresh.js');
 ```
 
+### `import`引入
+
 ```js
-// 直接通过路径引入
-var MiniRefresh = require('xxx/minirefresh.js');
+import { MiniRefresh } from 'xxx/minirefresh.js';
 ```
 
 ## 页面布局
 
 ```html
+<!-- minirefresh开头的class请勿修改 -->
 <div id="minirefresh" class="minirefresh-wrap">
     <div class="minirefresh-scroll">        
     </div>
