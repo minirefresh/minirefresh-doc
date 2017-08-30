@@ -36,6 +36,8 @@
 
 ## 贡献指南
 
+* [如何贡献](contribute/howtocontributor.md)
+
 * [贡献者名单](contribute/contributor.md)
 
 * [交流讨论](contribute/discuss.md)
