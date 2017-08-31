@@ -8,8 +8,13 @@
 
 - 贡献者进一步可以根据贡献度提升为管理者，对整个项目的代码有全面管理读写权限
 
-### 名单
+## 名单
 
-- dailc（a546684355@qq.com）
+### dailc（a546684355@qq.com） 
+
+![](https://img.shields.io/badge/minirefresh-member-brightgreen.svg)
+![](https://img.shields.io/badge/minirefresh-manager-blue.svg)
+
+[https://github.com/dailc](https://github.com/dailc)
 
 最初作者，进行初始架构，提供初始版本
