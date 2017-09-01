@@ -4,7 +4,7 @@
 
 __继承自default__
 
-![](../staticresource/screenshoot/theme_applet.gif)
+![](https://minirefresh.github.io/minirefresh/staticresource/screenshoot/theme_applet.gif)
 
 ## 引入
 
@@ -18,11 +18,15 @@ __继承自default__
 ```
 
 ```js
-var MiniRefreshDefault = require('xxx/minirefresh.js');
-var MiniRefresh = require('xxx/minirefresh.theme.applet.js');
+var MiniRefreshTools = require('xxx/minirefresh.js');
 
-import { MiniRefreshDefault } from 'xxx/minirefresh.js';
-import { MiniRefresh } from 'xxx/minirefresh.theme.applet.js';
+require('xxx/minirefresh.theme.applet.js');
+```
+
+```js
+import { MiniRefreshTools } from 'xxx/minirefresh.js';
+
+import 'xxx/minirefresh.theme.applet.js';
 ```
 
 ## 说明

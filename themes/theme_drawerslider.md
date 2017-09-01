@@ -4,7 +4,7 @@
 
 __继承自default__
 
-![](../staticresource/screenshoot/theme_drawerslider.gif)
+![](https://minirefresh.github.io/minirefresh/staticresource/screenshoot/theme_drawerslider.gif)
 
 ## 引入
 

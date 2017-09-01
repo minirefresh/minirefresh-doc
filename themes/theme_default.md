@@ -4,7 +4,7 @@
 
 __继承自Core__
 
-![](../staticresource/screenshoot/base_default.gif)
+![](https://minirefresh.github.io/minirefresh/staticresource/screenshoot/base_default.gif)
 
 ## 引入
 
@@ -17,9 +17,11 @@ __继承自Core__
 ```
 
 ```js
-var MiniRefresh = require('xxx/minirefresh.js');
+var MiniRefreshTools = require('xxx/minirefresh.js');
+```
 
-import { MiniRefresh } from 'xxx/minirefresh.js';
+```js
+import { MiniRefreshTools } from 'xxx/minirefresh.js';
 ```
 
 ## 说明
