@@ -8,6 +8,11 @@
     "structure": {
         "readme": "introduction.md"
     },
+    "links": {
+        "sidebar": {
+            "minirefresh.com": "http://www.minirefresh.com"
+        }
+    },
     "plugins": [
         "-lunr",
         "-search",
@@ -70,15 +75,15 @@
             ]
         },
         "baidu": {
-            "token": "0ad542bd5ce7bd628fd6b892a2bef1fc"
+            "token": "e2a59eb4f9c114693bf024085d12fe22"
         },
         "sectionx": {
             "tag": "b"
         },
         "sitemap-general": {
-            "prefix": "//minirefresh.github.io"
+            "prefix": "//www.minirefresh.com"
         },
-        
+
         "favicon": {
             "shortcut": "favicon.ico",
             "bookmark": "favicon.ico"
