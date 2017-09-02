@@ -27,7 +27,7 @@
         "sitemap-general@^0.1.1",
         "favicon@^0.0.2",
         "todo@^0.1.3",
-        "baidu@^0.1.0",
+        "3-ba@^0.9.0",
         "github-buttons@^2.1.0"
     ],
     "pluginsConfig": {
@@ -74,14 +74,14 @@
                 "instapaper"
             ]
         },
-        "baidu": {
+        "3-ba": {
             "token": "e2a59eb4f9c114693bf024085d12fe22"
         },
         "sectionx": {
             "tag": "b"
         },
         "sitemap-general": {
-            "prefix": "//www.minirefresh.com"
+            "prefix": "http://www.minirefresh.com"
         },
 
         "favicon": {
