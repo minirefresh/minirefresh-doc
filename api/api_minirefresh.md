@@ -15,6 +15,7 @@ new MiniRefresh(options);
 | down | Object | 默认配置 | 下拉的默认配置 |
 | up | Object | 默认配置 | 上拉的默认配置 |
 | container | String | '#minirefresh' | minirefresh容器的selector |
+| isLockX | Boolean | true | 是否锁定横向滑动，如果锁定则原生滚动条无法滑动(注意，是原生HTML的横向滑动而不是一些类似于swipe之类的第三方滑动插件)，如果想要嵌套横向滑动，可以设为`false` |
 
 __down的配置__
 
