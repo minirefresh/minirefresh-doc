@@ -42,6 +42,4 @@
 
 * [交流讨论](contribute/discuss.md)
 
-## 相关项目
-
-* [MiniRefresh业务封装](https://github.com/minirefresh/minirefresh-bizlogic)
+* [相关项目](contribute/relateproject.md)
