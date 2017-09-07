@@ -16,6 +16,8 @@ new MiniRefresh(options);
 | up | Object | 默认配置 | 上拉的默认配置 |
 | container | String | '#minirefresh' | minirefresh容器的selector |
 | isLockX | Boolean | true | 是否锁定横向滑动，如果锁定则原生滚动条无法滑动(注意，是原生HTML的横向滑动而不是一些类似于swipe之类的第三方滑动插件)，如果想要嵌套横向滑动，可以设为`false` |
+| isUseBodyScroll | Boolean | false | 是否使用`body`对象的`scroll`而不是`minirefresh-scroll`对象的`scroll`，如果使用`body`的`scroll`，可以通过`window.onscroll`监听，但是这时候请确保一个页面只有一个下拉刷新，否则会有冲突 |
+
 
 __down的配置__
 
@@ -35,6 +37,7 @@ __down的配置__
 | isAllowAutoLoading | Boolean | true | 设置isAuto=true时生效，是否在初始化的下拉刷新触发事件中显示动画，如果是false，初始化的加载只会触发回调，不会触发动画 |
 | isScrollCssTranslate | Boolean | true | 请只在定制主题时使用，是否在下拉时scroll（内容区域）跟随css translate动画，如果为false，下拉时只会回调下拉距离，scroll不会跟随动画，常用来定制自定义下拉刷新 |
 | offset | Number | 75 | 触发下拉的阈值，当下拉距离大于这个阈值后，在松开时会触发下拉刷新 |
+| dampRateBegin | Number | 1 | 阻尼系数，下拉小于offset时的阻尼系数，值越接近0,高度变化越小,表现为越往下越难拉 |
 | dampRate | Number | 0.3 | 下拉超过阈值后的阻尼系数，越接近0，下拉高度变化越小，例如0.1时表现是超过阈值后基本就拉不动了 |
 | bounceTime | Number | 300 | 回弹动画时间，下拉取消后或结束后到关闭时，会有一个回弹时间过渡  |
 | successAnim | Object | 默认配置 | 成功动画配置相关，请只在实现了成功动画的主题中使用，比如default主题,目前成功动画只是保留功能，因为以后可能有主题需要它 |
