@@ -11,8 +11,8 @@ __继承自default__
 参考`applet主题`中的引入，文件其中主题的样式和脚本换为如下名称
 
 ```js
-minirefresh.theme.drawer3d.css
-minirefresh.theme.drawer3d.js
+drawer3d/minirefresh.theme.drawer3d.css
+drawer3d/minirefresh.theme.drawer3d.js
 ```
 
 ## 说明

@@ -18,15 +18,21 @@ __继承自default__
 ```
 
 ```js
+// 同时支持NPM与文件形式引入
 var MiniRefreshTools = require('xxx/minirefresh.js');
+require('xxx/minirefresh.css');
 
 require('xxx/minirefresh.theme.applet.js');
+require('xxx/minirefresh.theme.applet.css');
 ```
 
 ```js
-import { MiniRefreshTools } from 'xxx/minirefresh.js';
+// debug下是.js dist下是.min.js
+import MiniRefreshTools from 'xxx/minirefresh.js';
+import 'minirefresh/dist/debug/minirefresh.css'
 
-import 'xxx/minirefresh.theme.applet.js';
+import 'minirefresh/dist/debug/themes/applet/minirefresh.theme.applet.js';
+import 'minirefresh/dist/debug/themes/applet/minirefresh.theme.applet.css';
 ```
 
 ## 说明

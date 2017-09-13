@@ -11,8 +11,8 @@ __继承自default__
 参考`applet主题`中的引入，文件其中主题的样式和脚本换为如下名称
 
 ```js
-minirefresh.theme.taobao.css
-minirefresh.theme.taobao.js
+taobao/minirefresh.theme.taobao.css
+taobao/minirefresh.theme.taobao.js
 ```
 
 ## 说明

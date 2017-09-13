@@ -17,11 +17,15 @@ __继承自Core__
 ```
 
 ```js
+// 同时支持NPM与文件形式引入
 var MiniRefreshTools = require('xxx/minirefresh.js');
+require('xxx/minirefresh.css');
 ```
 
 ```js
-import { MiniRefreshTools } from 'xxx/minirefresh.js';
+// debug下是.js dist下是.min.js
+import MiniRefreshTools from 'minirefresh';
+import 'minirefresh/dist/debug/minirefresh.css'
 ```
 
 ## 说明
