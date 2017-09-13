@@ -15,3 +15,17 @@ __说明__
 __地址__
 
 [https://github.com/minirefresh/minirefresh-bizlogic](https://github.com/minirefresh/minirefresh-bizlogic)
+
+## minirefresh-vue-examples
+
+__上榜理由__
+
+快速的了解到如何在`Vue`中使用`MiniRefresh`
+
+__说明__
+
+`MiniRefresh`在`Vue`组件化开发中的运用
+
+__地址__
+
+[https://github.com/minirefresh/minirefresh-vue-examples](https://github.com/minirefresh/minirefresh-vue-examples)
