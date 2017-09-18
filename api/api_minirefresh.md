@@ -160,6 +160,20 @@ __参数说明__
 | y | Number | 需要滚动到位置的top高度 |
 | duration | Number | 过渡时间，默认为`0` |
 
+### getPosition()
+
+获取当前的滚动位置
+
+```js
+minirefresh.getPosition();
+```
+
+__返回说明__
+
+| 参数类型  | 说明  |
+| :-------------|:-------------|
+| Number | 当前的滚动位置 |
+
 ### refreshOptions(options)
 
 刷新minirefresh的配置，刷新后会马上生效
