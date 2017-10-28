@@ -35,6 +35,7 @@ __down的配置__
 | isAuto | Boolean | false | 是否初始化时自动执行一次下拉刷新，优先级要高于上拉加载的auto，并且两个auto只会执行一次 |
 | isAways | Boolean | false | 是否运行在上拉时也可以下拉，如果为false，上拉时无法触发下拉刷新 |
 | isAllowAutoLoading | Boolean | true | 设置isAuto=true时生效，是否在初始化的下拉刷新触发事件中显示动画，如果是false，初始化的加载只会触发回调，不会触发动画 |
+| isAutoResetUpLoading | Boolean | true | 是否每次下拉完毕后默认重置上拉，为false时下拉刷新后不会自动重置上拉状态 |
 | isScrollCssTranslate | Boolean | true | 请只在定制主题时使用，是否在下拉时scroll（内容区域）跟随css translate动画，如果为false，下拉时只会回调下拉距离，scroll不会跟随动画，常用来定制自定义下拉刷新 |
 | offset | Number | 75 | 触发下拉的阈值，当下拉距离大于这个阈值后，在松开时会触发下拉刷新 |
 | dampRateBegin | Number | 1 | 阻尼系数，下拉小于offset时的阻尼系数，值越接近0,高度变化越小,表现为越往下越难拉 |
