@@ -17,6 +17,7 @@ new MiniRefresh(options);
 | container | String | '#minirefresh' | minirefresh容器的selector |
 | isLockX | Boolean | true | 是否锁定横向滑动，如果锁定则原生滚动条无法滑动(注意，是原生HTML的横向滑动而不是一些类似于swipe之类的第三方滑动插件)，如果想要嵌套横向滑动，可以设为`false` |
 | isUseBodyScroll | Boolean | false | 是否使用`body`对象的`scroll`而不是`minirefresh-scroll`对象的`scroll`，如果使用`body`的`scroll`，可以通过`window.onscroll`监听，但是这时候请确保一个页面只有一个下拉刷新，否则会有冲突 |
+| isScrollBar | Boolean | true | 是否显示滚动条，为`false`时会将滚动条宽度设为`0` |
 
 
 __down的配置__
