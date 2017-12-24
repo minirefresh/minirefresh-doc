@@ -46,7 +46,7 @@
             }
         },
         "tbfed-pagefooter": {
-            "copyright": "Copyright © dailc 2017",
+            "copyright": "<a target=\"_blank\" href=\"http://www.miitbeian.gov.cn/publish/query/indexFirst.action\">苏ICP备17029629号-1</a> Copyright © dailc 2017",
             "modify_label": "文件修订时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
