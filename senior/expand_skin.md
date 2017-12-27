@@ -10,10 +10,7 @@
 
 ### 代码编写
 
-关于如何组织代码，可以参考`examples`中的`theme_expand.html`与`theme_modify.html`
-
-[theme_expand.html](https://github.com/minirefresh/minirefresh/blob/master/examples/senior/theme_expand.html)
-[theme_modify.html](https://github.com/minirefresh/minirefresh/blob/master/examples/senior/theme_modify.html)
+参考源码， 项目使用的是ES6语法 + gulp自动构建
 
 ### 代码规范
 

@@ -8,9 +8,9 @@
 MiniRefreshTools
     |- -                 // 直接.xxx就能调用的一些工具方法
     |   |- extend        // 对象的拓展
-    |   |- Clazz         // 模拟Class
+    |   |- version       // 版本
     |   |- ...           // 更多工具方法
-    |- - core            // minirefresh的核心，定义了需要暴露的API，所有的主题都继承自核心
+    |- - Core            // minirefresh的核心，定义了需要暴露的API，所有的主题都继承自核心
     |- - theme           // minirefresh的主题，每定义一个主题都会挂载到这个命名空间下
     |   |- defaults      // 默认的主题
     |   |- applet        // 仿微信小程序主题

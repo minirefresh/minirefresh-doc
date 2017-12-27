@@ -2,6 +2,8 @@
 
 所有的主题都拥有的核心API（即`core`类的API）
 
+注意，这里是通用设置，更多的主题设置请关注各大主题的使用，如`default`主题
+
 ## `options`配置说明
 
 核心API有一些通用的`options`配置（生效与所有主题）
@@ -81,7 +83,7 @@ var minirefresh = new MiniRefresh({...});
 minirefresh.method();
 ```
 
-### triggerDownLoading(isShowLoading)
+### triggerDownLoading()
 
 触发下拉刷新
 
@@ -89,25 +91,13 @@ minirefresh.method();
 minirefresh.triggerDownLoading();
 ```
 
-__参数说明__
-
-| 参数 | 参数类型  | 说明  |
-| :------------- |:-------------:|:-------------|
-| isShowLoading | Boolean | 是否显示loading动画，默认为`true`，如果关闭动画，每次触发时只会触发回调而不会触发动画 |
-
-### triggerUpLoading(isShowLoading)
+### triggerUpLoading()
 
 触发上拉加载
 
 ```js
 minirefresh.triggerUpLoading();
 ```
-
-__参数说明__
-
-| 参数 | 参数类型  | 说明  |
-| :------------- |:-------------:|:-------------|
-| isShowLoading | Boolean | 是否显示loading动画，默认为`true`，如果关闭动画，每次触发时只会触发回调而不会触发动画 |
 
 ### endDownLoading(isSuccess, successTips)
 
