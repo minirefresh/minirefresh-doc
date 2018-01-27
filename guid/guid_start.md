@@ -46,7 +46,8 @@ import 'minirefresh/dist/debug/minirefresh.css'
 ```html
 <!-- minirefresh开头的class请勿修改 -->
 <div id="minirefresh" class="minirefresh-wrap">
-    <div class="minirefresh-scroll">        
+    <div class="minirefresh-scroll">
+        
     </div>
 </div>
 ```
