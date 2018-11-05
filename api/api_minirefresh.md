@@ -48,7 +48,7 @@ __down的配置__
 | successAnim.isEnable | Boolean | false | 是否开启成功动画，开启后，下拉结束之前会先出现成功动画  |
 | successAnim.duration | Number | 300 | 成功动画的过度时间  |
 | onPull | Function | 空函数 | 下拉过程中的持续回调，回调参数（downHight, downOffset）  |
-| onCalcel | Function | 空函数 | 取消下拉后的回调,当下拉超过阈值，并松开就会触发  |
+| onCancel | Function | 空函数 | 取消下拉后的回调,当下拉超过阈值，并松开就会触发  |
 | callback | Function | 空函数 | 触发下拉刷新后的回调  |
 
 __up的配置__
@@ -187,7 +187,7 @@ __注意:以下配置无法被刷新__
 container
 down.callback
 down.onPull
-down.onCalcel
+down.onCancel
 up.callback
 up.onScroll
 ```
